@@ -46,9 +46,32 @@ p h1 h2 {
 }
 
 img.animated-gif{
+  position: relative;
   display: block;
-  width: 600px;
+  width: 800px;
+  top: 100px;
   height: auto;
   margin-left: auto;
   margin-right: auto
 }
+
+div.right_button{
+  position: relative;
+  display: block;
+  top: -150px;
+  right: -650px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.left_button{
+  position: relative;
+  display: block;
+  top: -150px;
+  left: -500px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
