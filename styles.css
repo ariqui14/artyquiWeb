@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: LifeSavers;
-    background-image: url('beigePaperBackground.jpg');
+    background-image: url('olga-thelavart-vS3idIiYxX0-unsplash.jpg');
   }
   
   .topnav {
@@ -31,8 +31,8 @@ body {
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #d2a2e2;
+    color: rgb(73, 11, 65);
   }
   
   .header_center {
