@@ -7,7 +7,19 @@ body {
     margin: 0;
     font-family: LifeSavers;
     background-image: url('olga-thelavart-vS3idIiYxX0-unsplash.jpg');
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
   
   .topnav {
     overflow: hidden;
@@ -55,11 +67,16 @@ img.animated-gif{
   margin-right: auto
 }
 
+img.arrowButtons{
+  width: 300px;
+  height: 300px;
+}
+
 div.right_button{
   position: relative;
   display: block;
-  top: -150px;
-  right: -650px;
+  top: -240px;
+  right: -425px;
   width: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -68,10 +85,20 @@ div.right_button{
 div.left_button{
   position: relative;
   display: block;
-  top: -150px;
+  top: -550px;
   left: -500px;
   width: 200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  transition: transform 0.7s ease-in-out;
 }
 
